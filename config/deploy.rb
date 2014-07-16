@@ -10,8 +10,8 @@ require 'mina/rbenv'  # for rbenv support. (http://rbenv.org)
 #   repository   - Git repo to clone from. (needed by mina/git)
 #   branch       - Branch name to deploy. (needed by mina/git)
 # ssh_options[:forward_agent] = true
-# set :domain, '106.185.29.94'
-set :domain, 'zhaitx.com'
+set :domain, '106.185.29.94'
+# set :domain, 'zhaitx.com'
 set :deploy_to, '/var/www/zhaitx.com'
 set :repository, 'git@github.com:superbatironmans5/test_passenger.git'
 set :branch, 'master'
@@ -24,9 +24,9 @@ set :branch, 'master'
 set :shared_paths, ['config/database.yml', 'log']
 
 # Optional settings:
-  set :user, 'root'    # Username in the server to SSH to.
-  set :port, '30000'     # SSH port number.
-set :forward_agent, true     # SSH forward_agent.
+#   set :user, 'root'    # Username in the server to SSH to.
+#   set :port, '30000'     # SSH port number.
+# set :forward_agent, true     # SSH forward_agent.
 
 # This task is the environment that is loaded for most commands, such as
 # `mina deploy` or `mina rake`.
