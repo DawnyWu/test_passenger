@@ -10,8 +10,9 @@ require 'mina/rbenv'  # for rbenv support. (http://rbenv.org)
 #   repository   - Git repo to clone from. (needed by mina/git)
 #   branch       - Branch name to deploy. (needed by mina/git)
 # Username in the server to SSH to.
+set :term_mode, nil
 set :user, 'root' 
-set :domain, '106.185.29.94'
+set :domain, 'zhaitx.com'
 # set :domain, 'zhaitx.com'
 set :deploy_to, '/var/www/zhaitx.com'
 set :repository, 'git@github.com:superbatironmans5/test_passenger.git'
