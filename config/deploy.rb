@@ -12,7 +12,7 @@ require 'mina/rbenv'  # for rbenv support. (http://rbenv.org)
 # Username in the server to SSH to.
 set :term_mode, nil
 set :user, 'root' 
-set :domain, 'zhaitx.com'
+set :domain, '106.185.29.94'
 # set :domain, 'zhaitx.com'
 set :deploy_to, '/var/www/zhaitx.com'
 set :repository, 'git@github.com:superbatironmans5/test_passenger.git'
